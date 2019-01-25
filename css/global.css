@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+
+/* CSS Document */
+
+
+
+body,ol,ul,li,table,tr,td,dt,dd,dl,h1,h2,h3,h4,h5,h6,form,input,select,textarea{margin:0;padding:0; font-family:"微软雅黑"; font-size:12px; font-weight:normal;}
+
+html{ overflow-x:hidden;}
+
+
+
+body{font-size:12px;color:#7b4a33; margin:0; padding:0; _overflow:hidden; overflow-x:hidden;}
+
+
+
+input,button,select,textarea{outline:none}
+
+
+
+p{ margin:0; padding:0;}
+
+
+
+a img{border:none;}
+
+
+
+li{list-style-type:none;}
+
+
+
+a{text-decoration:none;color:#000;}
+
+
+
+input{vertical-align:middle;font-family:"微软雅黑";}
+
+
+
+table{border-collapse:collapse;font-family:"微软雅黑";}
+
+
+
+a:hover{cursor:pointer; color:#5e2d0d;}
+
+
+
+a,area { blr:expression(this.onFocus=this.blur()) } /* for IE */
+
+
+
+:focus { -moz-outline-style: none; } /* for Firefox */
+
+
+
+a { outline:none; } /* for FF Chrome */
+
+
+
+.clear{ clear:both;}
+
+
+
+
+
+.footer{ width:956px; margin-top:5px; position:relative; left:50%; margin-left:-478px; height:80px;}
+
+.footer .encn{ line-height:30px; height:30px; text-align:right;}
+
+.ftleft{ width:50%; float:left; line-height:30px; height:30px;}
+
+.ftleft a{ margin:0 5px;}
+
+.ftright{ float:right; width:49%; text-align:right; line-height:26px; height:26px;} 
+
+.ftright .icp{ float:right;}
+
+.ftright .search{ float:right; width:113px; height:20px; position:relative; background:url(../images/sc.jpg) no-repeat left bottom; margin-left:10px;}
+
+.ftright .search .sctxt{ position:absolute; width:97px; height:13px; left:0; top:5px; border:none; background:none}
+
+.ftright .search .scbtn{ position:absolute; width:16px; height:16px; right:0; top:5px; border:none; cursor:pointer; background:none;}
+

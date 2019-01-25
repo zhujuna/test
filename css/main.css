@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+
+
+/* CSS Document */
+
+html{ width:100%; height:100%; min-width:956px;}
+body{ height:100%; width:100%; min-width:956px;}
+.clear{ clear:both;}
+.header { width:100%; height:100%;position: relative; left:50%; margin-left:-50%; }
+
+.logo{ position:absolute; left:0px; top:105px; z-index:999;}
+
+.gg { width: 100%; height: 100%; position: relative; z-index: 1; overflow: hidden;  background: #d3d3d3 url(../images/loading.jpg) repeat-x; }
+
+
+
+.ggs { width: 100%; height: 100%; left:0; top: 0; position: absolute; }
+
+.ggBox { width: 100%; height: 100%; background:#000; }
+
+    .ggBox ul li { display: block; width: 100%; height: 100%; position: absolute; z-index: 1; opacity: 0.1; }
+
+    .ggBox img { display: block; width: 100%; height: 100%; }
+
+.ggb { position: absolute; right: 0px; bottom: 0; height: 100%; z-index: 4; width:956px; left:50%; margin-left:-478px;}
+
+.ggBtns { height: 100%;}
+
+.ggBtns ul{ width:100%; height:100%;}
+.ggBtns ul li{ float:left; width:225px; height:100%;border-left:1px solid #a5a39e; position:relative;}
+
+.ggBtns ul li h2{ height:96px; line-height:96px; position:absolute; top:247px; left:0; width:201px; line-height:100px;color:#fff; background:url(../images/a_09.png) no-repeat left center; padding-left:24px; font-size:14px;}
+
+.ggBtns ul li h2 .bg{ background:#000;filter: alpha(opacity=50); opacity: 0.5; display:inline-block; width:100%; left:0; top:0; height:100%; position:absolute; z-index:-1;}
+
+.ggBtns ul .aaa .limain{ display:none;}
+
+
+
+.ggBtns ul .ggOn{ width:276px;}
+
+.ggBtns ul .ggOn h2{ display:none;}
+
+.ggBtns ul .ggOn .limain{ display:block; width:276px; height:100%; position:relative;}
+
+.ggBtns ul .ggOn .limain .bgs{ background:#000; width:276px; height:100%; position:absolute; left:0; top:0;filter: alpha(opacity=50); opacity: 0.5; z-index:-1;}
+
+.ggBtns ul .ggOn .limain .links{ padding-top:150px; padding-left:120px;}
+
+.ggBtns ul .ggOn .limain .links a{ line-height:40px; height:40px; display:block; color:#fff;}
+.ggBtns ul .ggOn .limain .links a:Hover{ text-decoration:underline; color:#fefad1}
+.ggBtns ul .ggOn .limain .logon_02{ height:217px; overflow:hidden; padding-top:30px;}
+.ggBtns ul .ggOn .limain .pic_02{ position:relative; width:276px; height:96px; top:150px; left:40px;}
+.ggBtns ul .ggOn .limain .pic_02 h3{ position:absolute; top:40px; z-index:999; left:0; padding-left:20px; font-size:14px;}
+
+.encn{ position:absolute; right:-100px; top:15px;}
+.encn a{ margin-left:10px; color:#fff;}
+.encn a:hover{ text-decoration:underline;}
+
+
+
